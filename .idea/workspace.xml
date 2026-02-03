@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87b456d6-7076-47df-95f7-60a4e5af3cf3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Python-02/ex0/ft_first_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-02/ex1/ft_different_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-02/ex2/ft_custom_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-02/ex3/ft_finally_block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-02/ex4/ft_raise_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-02/ex5/ft_garden_management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/.idea/Python-03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/advanced_data_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/data_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex0/ft_command_quest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex1/ft_score_analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex2/ft_coordinate_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex3/ft_achievement_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex4/ft_inventory_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex5/ft_data_stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ex6/ft_analytics_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/exercise_0_help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/exercise_1_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/ft_inventory_system-first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-03/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/.idea/Python-04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/classified_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/corrupted_archive.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/data_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/ex0/ancient_fragment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/ex0/ft_ancient_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/ex1/ft_archive_creation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/ex1/new_discovery.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/ex2/ft_stream_management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/sample_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/security_protocols.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python-04/standard_archive.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="38bRFT28NQ94aXZ8QDtPEtkvVdJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/acherifi/Desktop/Git-repo/Python-Modules-42&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
+        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87b456d6-7076-47df-95f7-60a4e5af3cf3" name="Changes" comment="" />
+      <created>1769066179408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769066179408</updated>
+      <workItem from="1769066180784" duration="770000" />
+      <workItem from="1770129662871" duration="395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
