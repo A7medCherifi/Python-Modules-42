@@ -1,6 +1,3 @@
-import sys
-
-
 def data_recovery_system():
     print("=== CYBER ARCHIVES - DATA RECOVERY SYSTEM ===\n")
 
@@ -13,14 +10,11 @@ def data_recovery_system():
             data = f.read()
             print("RECOVERED DATA:")
             print(data)
+        print("\nData recovery complete. Storage unit disconnected.")
     except FileNotFoundError:
         print("ERROR: Storage vault not found.")
-        sys.exit(1)
     except Exception as e:
         print(f"ERROR: {e}")
-        sys.exit(1)
-
-    print("\nData recovery complete. Storage unit disconnected.")
 
 
 if __name__ == "__main__":

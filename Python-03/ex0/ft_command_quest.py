@@ -1,7 +1,7 @@
 import sys
 
 
-def check_arguments():
+def check_arguments() -> None:
     if len(sys.argv) == 1:
         print("No arguments provided!")
         print(f"Program name: {sys.argv[0]}")

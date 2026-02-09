@@ -1,7 +1,7 @@
 import sys
 
 
-def current_inventory(inventory: dict, total_items: int):
+def current_inventory(inventory: dict, total_items: int) -> None:
     print("\n=== Current Inventory ===")
     try:
         inventories = set()
@@ -16,7 +16,7 @@ def current_inventory(inventory: dict, total_items: int):
         print(f"Error: {e}")
 
 
-def inventory_statistics(inventory: dict):
+def inventory_statistics(inventory: dict) -> None:
     print("\n=== Inventory Statistics ===")
     try:
         max_val = 0
@@ -44,7 +44,7 @@ def inventory_statistics(inventory: dict):
         print(f"Error: {e}")
 
 
-def item_categories(inventory: dict):
+def item_categories(inventory: dict) -> None:
     print("\n=== Item Categories ===")
     try:
         if len(inventory["abundant"]) > 0:
@@ -58,7 +58,7 @@ def item_categories(inventory: dict):
         print(f"Error: {e}")
 
 
-def management_suggestions(inventory: dict):
+def management_suggestions(inventory: dict) -> None:
     print("\n=== Management Suggestions ===")
     try:
         restock = []
@@ -71,7 +71,7 @@ def management_suggestions(inventory: dict):
         print(f"Error: {e}")
 
 
-def dictionary_properties(inventory: dict):
+def dictionary_properties(inventory: dict) -> None:
     print("\n=== Dictionary Properties Demo ===")
     try:
         lookup_item = False
@@ -90,8 +90,8 @@ def dictionary_properties(inventory: dict):
         print(f"Error: {e}")
 
 
-def inventory_system():
-    inventory1 = dict()
+def inventory_system() -> None:
+    inventory = dict()
     categories = {
         "abundant": {},
         "moderate": {},
@@ -103,9 +103,9 @@ def inventory_system():
         i = 1
         while i < len(sys.argv):
             name, value = sys.argv[i].split(':')
-            inventory1.update({name: int(value)})
+            inventory.update({name: int(value)})
             i += 1
-        for key, value in inventory1.items():
+        for key, value in inventory.items():
             if value < 0:
                 raise Exception("the quantity can't be < 0, stupid.")
             if value > 5:
@@ -120,18 +120,21 @@ def inventory_system():
 
     total_items = 0
     unique_items = 0
-    for value in inventory1.values():
+    for value in inventory.values():
         unique_items += 1
         total_items += value
 
     print(f"Total items in inventory: {total_items}")
     print(f"Unique item types: {unique_items}")
 
-    current_inventory(inventory1, total_items)
-    inventory_statistics(inventory1)
-    item_categories(categories)
-    management_suggestions(inventory1)
-    dictionary_properties(inventory1)
+    try:
+        current_inventory(inventory, total_items)
+        inventory_statistics(inventory)
+        item_categories(categories)
+        management_suggestions(inventory)
+        dictionary_properties(inventory)
+    except Exception as e:
+        print(f"Error: {e}")
 
 
 if __name__ == "__main__":

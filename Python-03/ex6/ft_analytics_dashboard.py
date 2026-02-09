@@ -1,4 +1,4 @@
-def lis_comprehension(players: list):
+def lis_comprehension(players: list) -> None:
     print("=== List Comprehension Dashboard ===")
     high_scores = [value['name'] for value in players if value['score'] > 2000]
     scores_double = [value['score'] * 2 for value in players]
@@ -9,7 +9,7 @@ def lis_comprehension(players: list):
     print(f"Active players: {active_players}")
 
 
-def dict_comprehension(players: list):
+def dict_comprehension(players: list) -> None:
     print("\n=== Dict Comprehension Examples ===")
     player_scores = {value['name']: value['score'] for value in players}
     score_category = {
@@ -26,7 +26,7 @@ def dict_comprehension(players: list):
     print(f"Achievement counts: {count_ach}")
 
 
-def set_comprehension(players):
+def set_comprehension(players: list) -> None:
     print("\n=== Set Comprehension Examples ===")
     unique_players = {value['name'] for value in players}
     first_ach = set()
@@ -45,7 +45,7 @@ def set_comprehension(players):
     print(f"Active regions: {active_regions}")
 
 
-def combined_analysis(players):
+def combined_analysis(players: list) -> None:
     print("\n=== Combined Analysis ===")
     total_players = sum(1 for _ in players)
     total_unique_ach = len({
@@ -68,7 +68,7 @@ def combined_analysis(players):
           f"points, {len(value['achievements'])} achievements)")
 
 
-def analytics_dashboard():
+def analytics_dashboard() -> None:
     print("=== Game Analytics Dashboard ===\n")
     players = [
         {
@@ -122,10 +122,13 @@ def analytics_dashboard():
         }
     ]
 
-    lis_comprehension(players)
-    dict_comprehension(players)
-    set_comprehension(players)
-    combined_analysis(players)
+    try:
+        lis_comprehension(players)
+        dict_comprehension(players)
+        set_comprehension(players)
+        combined_analysis(players)
+    except Exception as e:
+        print(f"Error: {e}")
 
 
 if __name__ == "__main__":
