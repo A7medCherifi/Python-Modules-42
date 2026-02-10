@@ -1,9 +1,5 @@
 .idea/
 __pycache__/
 *.pyc
-src/__pycache__/
-src/config/__pycache__/
-src/maze/__pycache__/
-src/pathfinding/__pycache__/
 venv/
 .DS_Store
